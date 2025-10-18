@@ -6,7 +6,7 @@ typedef struct Noeud {
     struct Noeud* precedent;
     struct Noeud* suivant;
 } Noeud;
-
+uguhujh
 Noeud* creerNoeud(int valeur) {
     Noeud* nouveau = (Noeud*)malloc(sizeof(Noeud));
     if (!nouveau) return NULL;
@@ -59,3 +59,4 @@ insererFIN(&liste,100);
 
     return 0;
 }
+
